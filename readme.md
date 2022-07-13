@@ -34,6 +34,8 @@ there is two *Environment Variable* which you should set before runing: `$URL` a
 
 ### Example
 
+- build
+
 ```bash
 export URL=<site url here>
 git clone https://github.com/shabane/weed-out.git && cd weed-out
@@ -42,8 +44,7 @@ docker build . -t weed-out
 docker run -e URL=$URL -e DRIVER=wget weed-out
 ```
 
-or
-
+- or pull from docker hub
 
 ```bash
 export URL=<site url here>
@@ -51,6 +52,15 @@ export DRIVER=<driver name here>
 
 docker pull mshabane/weed-out:latest # Download image from docker hub
 docker run -e URL=$URL -e DRIVER=$URL mshabane/weed-out # run a container
+```
+
+- and or without docker
+
+```bash
+git clone https://github.com/shabane/weed-out.git && cd weed-out
+export URL=<site url here>
+export DRIVER=<driver name here>
+bash ./main.sh
 ```
 
 ### Disclaimer
