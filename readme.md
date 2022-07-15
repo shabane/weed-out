@@ -1,9 +1,6 @@
 # weed out
 
-<meta property="og:image" content="https://s6.uupload.ir/files/thumb_2000_0_0_0_auto_dmfa.jpg" />
-
-![weed-out](https://s6.uupload.ir/files/thumb_2000_0_0_0_auto_dmfa.jpg)
-
+![logo](https://s6.uupload.ir/files/thumb_2000_0_0_0_auto_dmfa.jpg)
 
 ![Docerkized](https://img.shields.io/badge/-docker-2496ED?logo=docker&logoColor=black&style=for-the-badge)
 ![Docerkized](https://img.shields.io/badge/-bash-E95420?logo=ubuntu&logoColor=black&style=for-the-badge)
