@@ -10,14 +10,10 @@
 
 ### Description
 
-*weed out* is a DOS project which based on site mirroring.
-this mean it will download the entire of a web site with all its
-files including images, java scripts, styles, medias and etc.
-when mirroring get completed all files will remove and
-mirroring will start over!
-
-there is a **dirves** directory which contain scripts which that
-script will run to download the site. available scripts for now are: `wget.sh`.  
+*weed out* is a DOS project which based on varios tools.
+this mean it will act differntly with diffrent drivers.
+there is a **dirves** directory which contain scripts that the
+script will run to take the site down. available scripts for now are: `wget.sh`, `ab.sh`.
 
 ### Usage
 
@@ -65,5 +61,5 @@ bash ./main.sh
 Yes of course DOS is not legal, this tool is educational purpose,
 use this to test your site *tolerance*.
 
-i made this for Standing with **Ukraine**🇺🇦, try to get list of Russian government websites
+i made this for Standing with **Ukraine**🇺🇦, and **Irananian Protesters🇮🇷** try to get list of Russian and or Iran government websites
 and then set the `URL` variable to theme.   
