@@ -1,1 +1,1 @@
-/usr/bin/ab -v 2 -c 1000 -t 0 $url/
+/usr/bin/ab -v 2 -c 1000 -t 0 $URL/
